@@ -1,0 +1,31 @@
+﻿@{
+    ViewBag.Title = "Image Resizer";
+}
+
+<div class="row">
+    <div class="col-md-4">
+        @using (Html.BeginForm("Upload", "Home", FormMethod.Post, new { enctype = "multipart/form-data" }))
+        {
+            <h2>Upload Image</h2>
+            <div class="form-group">
+                @Html.Label("Image:")
+                <input type="file" name="image" id="image" />
+            </div>
+            <div class="form-control">
+                <input type="submit" value="Submit" />
+            </div>
+        }
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-4">
+        <h3>Images</h3>
+        @if (Model != null)
+        {
+            foreach (var item in Model)
+            {
+                <img src="@item" height="500" width="500" /><br />
+            }
+        }
+    </div>
+</div>
