@@ -4,14 +4,14 @@
     <Instances count="1" />
     <ConfigurationSettings>
       <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="UseDevelopmentStorage=true" />
-      <Setting name="StorageConnectionString" value="DefaultEndpointsProtocol=https;AccountName=imagescalerstorage;AccountKey=A+mnFh6MyJtMECPld0AJEgacPeu9k1C2bBl+RRe9gbqwRjJLy4Xa72i/PPfzrWg9Zh1XBogab3UCtJldapkLpQ==" />
+      <Setting name="StorageConnectionString" value="DefaultEndpointsProtocol=https;AccountName=aayazokuluprojectdb;AccountKey=BBvOW0uG7zBmYqyb8xzPNuvzmUgVZIegofQSYJxd2gW5F61OCn6PsWHBDPZx3YKO0hhC8pgXSmngdwkDd9FK3Q==" />
     </ConfigurationSettings>
   </Role>
   <Role name="WorkerRole1">
     <Instances count="1" />
     <ConfigurationSettings>
       <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="UseDevelopmentStorage=true" />
-      <Setting name="StorageConnectionString" value="DefaultEndpointsProtocol=https;AccountName=imagescalerstorage;AccountKey=A+mnFh6MyJtMECPld0AJEgacPeu9k1C2bBl+RRe9gbqwRjJLy4Xa72i/PPfzrWg9Zh1XBogab3UCtJldapkLpQ==" />
+      <Setting name="StorageConnectionString" value="DefaultEndpointsProtocol=https;AccountName=aayazokuluprojectdb;AccountKey=BBvOW0uG7zBmYqyb8xzPNuvzmUgVZIegofQSYJxd2gW5F61OCn6PsWHBDPZx3YKO0hhC8pgXSmngdwkDd9FK3Q==" />
     </ConfigurationSettings>
   </Role>
 </ServiceConfiguration>
